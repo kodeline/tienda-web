@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zapas Deportivas</title>
+    <link rel="stylesheet" href="../css/estilos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1><a href="../index.html">Zapas</a></h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html"><i class='bx bx-user'></i></a></li>
+                    <li id="cartButton">
+                        <a href="pages/carrito.html"><i class='bx bx-shopping-bag'></i></a>
+                        <span class="cartCount" id="cartCount">0</span>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <section class="producto-detalle">
+                <div class="product-image">
+                    <img src="https://www.moov.com.ar/on/demandware.static/-/Sites-365-dabra-catalog/default/dw847a7a97/products/ADIH7830/ADIH7830-6.JPG" alt="Producto Uno">
+                </div>
+                <div class="product-info">
+                    <h2>Zapatillas adidas Forum Low</h2>
+                    <p class="precio">$195.990</p>
+                    <p class="description">¿Adoras el look clásico del básquetbol de los años 80, pero también te apasiona la cultura acelerada de los partidos actuales? Te presentamos el Nike Court Vision Low. Es un clásico rediseñado con al menos un 20% de materiales reciclados por peso. Su parte superior impecable y los revestimientos cosidos mantienen el alma del estilo original. El cuello de corte low y acolchado brinda elegancia y comodidad.</p>
+                    <div class="quantity">
+                        <label for="quantity">Cantidad:</label>
+                        <select id="quantity">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                    </div>
+                    <button data-title="Zapatillas adidas Forum Low" data-price="195990" class="add-to-cart-button btn">Añadir al Carrito</button>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Zapas. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
